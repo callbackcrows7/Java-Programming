@@ -66,12 +66,12 @@ public class simpleCalculator{
             performArithmeticOperation(operator, numOne, numTwo);
 
             // Ask if the user wants to continue or quit.
-            System.out.print("Enter 'q' to quit or any other to continue: ");
+            System.out.print("Do you want to continue? (y/n): ");
             input = scanner.next().toLowerCase().charAt(0);
 
             clearConsole(); // Clear the current console.
 
-        } while (input != 'q'); // The program will continue until the q is pressed.
+        } while (input != 'n'); // The program will continue until the n is pressed.
 
         System.out.println("Program terminated successfully.");
         scanner.close(); // Close the scanner.
