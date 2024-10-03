@@ -33,11 +33,11 @@ public class timeTable {
             generateTimeTable(num);
 
            // Ask if the user wants to continue or quit.
-           System.out.print("Enter 'q' to quit, or any other key to continue: "); 
+           System.out.print("Do you want to continue? (y/n): "); 
            input = scanner.next().toLowerCase().charAt(0);
 
            clearConsole(); // clear the current console.
-        } while (input != 'q'); // Program will continue until 'q' is pressed.
+        } while (input != 'n'); // Program will continue until 'n' is pressed.
 
         System.out.println("Program terminated successfully");
         scanner.close(); // Close the scanner.
