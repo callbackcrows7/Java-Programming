@@ -8,7 +8,7 @@ public class AreaOfTriangle{
         Scanner scanner = new Scanner(System.in);
 
         String input = "";
-        while (!input.equalsIgnoreCase("q")) {
+        while (!input.equalsIgnoreCase("n")) {
             System.out.println("Triangle Area Calculator");
             System.out.println("------------------------");
             System.out.println(); // Create a new line.
@@ -85,7 +85,7 @@ public class AreaOfTriangle{
             System.out.println(); // Create a new line.
 
             // Ask if the user wants to continue or quit.
-            System.out.print("Press 'q' to quit or any key to continue: ");
+            System.out.print("Do you want to continue? (y/n): ");
             input = scanner.next(); 
             clearConsol(); // Clear the current consol.
         }
