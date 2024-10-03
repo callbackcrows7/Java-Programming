@@ -38,11 +38,11 @@ public class calculateFact{
             System.out.printf("%.2f! = %.2f\n", num, result);
 
             // Ask if the user wants to continue or quit the program
-            System.out.print("Press 'q' to quit or any other key to continue: ");
+            System.out.print("Do you want to continue? (y/n): ");
             input = scanner.next().toLowerCase().charAt(0);
 
             clearConsole(); // Clear the current console.
-        } while (input != 'q'); // Program continue until 'q' is pressed.
+        } while (input != 'n'); // Program continue until 'n' is pressed.
 
         System.out.println("Program terminated successfully.");
         scanner.close(); // Close the scanner.
