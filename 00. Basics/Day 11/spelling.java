@@ -22,7 +22,7 @@ public class spelling {
                 if (scanner.hasNextInt()) {
                     digit = scanner.nextInt();
                     // Check if the number positive or negative.
-                    if (digit > 0) {
+                    if (digit >= 0) {
                         break;
                     } else {
                         System.out.println("Invalid Number. Input must be a positive number.");
@@ -40,10 +40,10 @@ public class spelling {
             spellingNumber(digit);
 
             // Ask if the user wants to continue or quit.
-            System.out.print("Press 'q' to quit or any other key to continue: ");
+            System.out.print("Press do you went to continue? (y/n): ");
             input = scanner.next().toLowerCase().charAt(0);
             clearConsole(); // Clear the current console.
-        } while (input != 'q'); // program will continue until 'q' is pressed.
+        } while (input != 'n'); // program will continue until 'n' is pressed.
 
         System.out.println("Program Terminated.");
         scanner.close(); // Close the scanner.
