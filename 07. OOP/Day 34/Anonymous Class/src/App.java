@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        // Creating an anonymous class for runtime override a method.
+        // Creating an anonymous class for override a method at runtime.
         Person person = new Person() {
             @Override
             public void sayHello() {
