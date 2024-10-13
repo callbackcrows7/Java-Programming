@@ -1,4 +1,4 @@
-public class ReflectDemo1 {
+public class ReflectDemo {
     public static void main(String[] args) {
         /* 
          * Usages: forName() method is used to load the class dynamically.
