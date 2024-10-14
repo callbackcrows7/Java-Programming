@@ -1,4 +1,3 @@
-import Instance.DisplayMessage;
 
 public class createInstance {
     public static void main(String[] args) {
